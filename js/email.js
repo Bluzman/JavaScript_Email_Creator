@@ -61,16 +61,7 @@ function addContent() {
 	//Return data entered
 	return newData;
 }
-function changeSeasonal() {
-	var seasIcon = document.getElementById('seasonalIcon');
-	var seasText = document.getElementById('seasonalText');
-	//var newIcon = document.getElementById('iconImages').value;
-	//var newText = document.getElementById('sText').value;
-	var changeText = prompt("Enter seasonal text here");
-	seasText.innerHTML = changeText;
-	var changeIcon = prompt("Enter seasonal icon name here");
-	seasIcon.src = "http://f.e.shopko.com/i/21/2088630699/seasonal-" + changeIcon + ".jpg";
-}
+
 //Function to insert image and image specifications
 function insertImage() {
 	//Create image element
