@@ -125,6 +125,12 @@ function createNewTable() {
 	newTable.border = 0;
 	return newTable;
 }
+/* Although all the code above this comment was created from
+   scratch by me, the remainder of this code I got from quirksmode.org
+   It's a nice plug and play snippet that allows the user
+   to edit the text just by clicking on it. All credit for
+   this code goes to the owner of that website, Peter-Paul Koch*/
+   
 var editing  = false;
 
 if (document.getElementById && document.createElement) {
